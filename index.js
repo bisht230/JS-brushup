@@ -78,6 +78,7 @@
 //  })
 
 const axios = require("axios");
+
 // const data = axios.get("https://api.coindesk.com/v1/bpi/currentprice.json");
 
 //By using async and await 
