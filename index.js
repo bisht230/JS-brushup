@@ -24,3 +24,4 @@
 // const flag = true;
 
 // console.log(flag ? name : 'Ketan')
+
