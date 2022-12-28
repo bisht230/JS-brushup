@@ -8,10 +8,10 @@
 
 //arrow function
 
-// const demonstration = (name) => {
-//     console.log(name)
-// }
-// demonstration("Deep")
+const demonstration = (name) => {
+    console.log(name)
+}
+demonstration("Deep")
 
 //normal function 
 // function demonstration(name) {
@@ -77,23 +77,23 @@
 //     console.log("Promise runnning")
 //  })
 
-const axios = require("axios");
+// const axios = require("axios");
 
 // const data = axios.get("https://api.coindesk.com/v1/bpi/currentprice.json");
 
 //By using async and await 
 
-const fetchData = async () => {
-    try {
-       const data = await axios.get("https://api.coindesk.com/v1/bpi/currentprice.jsn");
-       console.log(data) 
-    }
-    catch(err){
-       console.log(err)
-    }
-}
+// const fetchData = async () => {
+//     try {
+//        const data = await axios.get("https://api.coindesk.com/v1/bpi/currentprice.jsn");
+//        console.log(data) 
+//     }
+//     catch(err){
+//        console.log(err)
+//     }
+// }
 
-fetchData()
+// fetchData()
 
 //By using promise 
 
