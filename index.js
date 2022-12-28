@@ -27,11 +27,11 @@
 
 //objects
 
-const person = {
-    name : 'Deep',
-    age : 20,
-    isMarried : false
-}
+// const person = {
+//     name : 'Deep',
+//     age : 20,
+//     isMarried : false
+// }
 
 // const {name , age , isMarried} = person
 // console.log(name)
@@ -42,3 +42,16 @@ const person = {
 // const person2 = {...person , name : 'Deepansh' }
 // const {name , age , isMarried} = person2;
 // console.log(name)
+
+//maps and filters 
+
+const arr = ["ketan" , "deep" , "jatin"];
+// arr.map((name) => {
+//     console.log(name)
+// })
+
+// arr.filter((name) => {
+//    if(name!=="deep"){
+//     console.log(name)
+//    }
+//    })
