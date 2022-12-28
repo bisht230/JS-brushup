@@ -2,6 +2,7 @@
 //ternary operators
 //objects 
 //map and filters
+//promise
 //async await and fetch 
 
 
@@ -45,7 +46,7 @@
 
 //maps and filters 
 
-const arr = ["ketan" , "deep" , "jatin"];
+// const arr = ["ketan" , "deep" , "jatin"];
 // arr.map((name) => {
 //     console.log(name)
 // })
@@ -55,3 +56,23 @@ const arr = ["ketan" , "deep" , "jatin"];
 //     console.log(name)
 //    }
 //    })
+
+//promise
+
+const event = new Promise((resolve,reject) => {
+      let name = 'Dep';
+      if(name === "Deep"){
+        resolve(name);
+      }
+      else{
+        reject("Error Up!!")
+      }
+})
+
+event.then((name) => {
+     console.log(name)
+}).catch((e) => {
+    console.log(e)
+}).finally(() => {
+    console.log("Promise runnning")
+ })
