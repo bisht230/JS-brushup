@@ -8,10 +8,10 @@
 
 //arrow function
 
-const demonstration = (name) => {
-    console.log(name)
-}
-demonstration("Deep")
+// const demonstration = (name) => {
+//     console.log(name)
+// }
+// demonstration("Deep")
 
 //normal function 
 // function demonstration(name) {
