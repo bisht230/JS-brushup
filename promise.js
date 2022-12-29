@@ -1,7 +1,7 @@
 //promise
 
 const event = new Promise((resolve,reject) => {
-      let name = 'Dep';
+      let name = 'Deep';
       if(name === "Deep"){
         resolve(name);
       }
@@ -9,6 +9,7 @@ const event = new Promise((resolve,reject) => {
         reject("Error up !")
       }
 })
+
 
 event.then((name) => {
      console.log(name)
@@ -30,3 +31,5 @@ const data = axios.get("https://api.coindesk.com/v1/bpi/currentprice.json");
 //    console.log("Error up !!")
 // })
 
+
+//For reducing the use of promise we should use async and await as a best alternative

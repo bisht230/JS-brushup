@@ -1,5 +1,3 @@
-
-
 //maps and filters 
 
 const arr = ["ketan" , "deep" , "jatin"];
