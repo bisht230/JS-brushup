@@ -22,4 +22,21 @@ const createData = (callback) => {                   //addition of callback
         //callback()
     }, 2000);
 }
+
 createData(getData)
+
+//By using promise
+
+// const createData = new Promise ((resolve , reject) => {
+//       let error = true;
+//       if(!error){
+//         resolve();
+//       }
+//       else{
+//         reject("Error up!")
+//       }
+// })
+
+// createData.then(getData).catch((e) => {console.log(e)})
+
+
