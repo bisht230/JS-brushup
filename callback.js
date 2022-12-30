@@ -15,7 +15,7 @@ const getData = () => {
     }, 1000);
 }
 
-const createData = (callback) => {                   //addition of callback 
+const createData = (callback) => {                   /* addition of callback  */
     setTimeout(() => {
         callback()    //calling at the end   */ it will go downwards /*
         demon.push({name : "jatin", profession : "SDE"}) 

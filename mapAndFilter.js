@@ -1,4 +1,6 @@
-//maps and filters 
+/*
+ *  maps and filters  
+ */
 
 const arr = ["ketan" , "deep" , "jatin"];
 arr.map((name) => {
