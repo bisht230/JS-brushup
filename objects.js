@@ -1,7 +1,6 @@
 /*
  * objects 
  */
-
 const person = {
   name: "Deep",
   age: 20,

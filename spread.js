@@ -37,6 +37,5 @@ const schoolDetails = {
   name: "TPS",
   address: "Keshav Puram",
 };
-
 const final = { ...myDetails, ...schoolDetails };
 console.log(final);

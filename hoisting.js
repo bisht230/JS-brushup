@@ -18,7 +18,9 @@ var m = 5;
 var n = 10;
 console.log(m + n);
 
-// This is because only the declaration (var a), not the initialization (=15) is hoisted to the top.
+/*
+ *  This is because only the declaration (var a), not the initialization (=15) is hoisted to the top. 
+ */
 var z = 10;
 var a;
 console.log(z + a);
