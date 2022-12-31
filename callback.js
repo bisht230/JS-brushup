@@ -25,8 +25,10 @@ const createData = (callback) => {                   /* addition of callback  */
 
 createData(getData)
 
-//By using promise
-
+/*
+ * By using promise
+   
+ */
 // const createData = new Promise ((resolve , reject) => {
 //       let error = true;
 //       if(!error){
