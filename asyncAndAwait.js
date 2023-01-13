@@ -11,4 +11,3 @@ const fetchData = async () => {
 }
 
 fetchData()
-
